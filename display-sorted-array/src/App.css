@@ -1,0 +1,17 @@
+.App {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-right:5px;
+}
+button{
+  border:1px greenyellow solid;
+  border-radius: 1px;
+  padding:2px;
+}
