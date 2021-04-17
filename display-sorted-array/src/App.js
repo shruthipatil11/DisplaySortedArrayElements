@@ -56,7 +56,10 @@ function App() {
        <input type="number" name="numberInput" ref={element}/>
        <button type="submit" onClick={addElementsToAnArr}>Add Element</button>
        </div>
-      
+       <div>
+       <ul style={{display:'flex'}}>
+       {sortedArray.map( (item,index) => <li className="Box" key={index}>{item}</li>)}</ul>
+       </div>  
     </div>
   );
 }
